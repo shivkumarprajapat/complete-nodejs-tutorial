@@ -1,18 +1,36 @@
-# Node.JS 💯 🔥 📑 🔥 💯 Complete Tutorial 
+# REPL
 
-Node.js can be defined as a dynamic, cross-platform and open-source JavaScript framework or runtime environment that is built on the Google Chrome JavaScript V8 engine. Developed by Ryan Dahl in 2009, Node.js was initially implemented as a client-side scripting language. Nowadays, it is used to execute JavaScript code and scripts that run server-side to create dynamic web pages. The latest version of Node.js is 10.10.0.
+## js Expression
 
-![2021-nodejs](https://i.ibb.co/c897v6b/1-ODU5-V-o-Am-Ymzv-Z1w-Iw3r-Dw.png)
+    5+5
+    2-2
+    10/5
+    9%3
 
-### Video Playlist URL
-Node js tutorial for beginners in Hindi: https://youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8
+## use variables
 
-## All Branchs Names :
+    var name = 'node'
+    var lname = 'js'
+    console.log(name+lname)
 
-    node-REPL
+## Multiline code / loops
 
+    x = 0;
 
-##  nodemon install cammand
+    do{
+        x++;
+        console.log(`my name is shiv ${x}`);
+    }while(x>5);
+    
+    my name is shiv x 1
+    my name is shiv x 2
+    my name is shiv x 3
+    my name is shiv x 4
+    my name is shiv x 5
 
-    sudo npm install -g nodemon
-    nodemon index.js
+## use (_) to get the last result
+
+    5+5
+    10
+    _ + 10
+    15
